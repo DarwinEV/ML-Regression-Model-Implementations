@@ -14,11 +14,21 @@
   - Compare manual predictions with the sklean LinearRegression() predictions using Squared Error.
   
 ---------- Conclusions ----------
+- Significance:
+  - 
 
+- Analysis:
+  - The significance values from the data demonstrated that the results were highly correlated with r = 0.68.
+  - The p value resulted to be less then alpha = 0.05, falling within the confidence level of 95%.
+  
+- Results:
+  - The values obtained from skikit predictions, excel, and the implementation were almost identical with differences at the values further then the 10th
+    Decimal place.
+  - These results indicate that the implementation is correct overall.
 
 - Sources:
   - Youtube: Brandon Foltz - Simple Linear Regression, zedstatistics, Quantitative Specialists
   - Khan Academy: AP®︎/College Statistics
   - Tools: https://www.ttable.org/, excel, Kaggle, Jupyter Notebooks
   - Dataset: sns.load_dataset('tips')
-  - Libraries: sklearn, pandas, Seaborn, matplotlib
+  - Libraries: sklearn, pandas, Seaborn, matplotlib, numpy, plotly
