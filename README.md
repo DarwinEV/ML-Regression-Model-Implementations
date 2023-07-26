@@ -17,17 +17,28 @@
   - The t-test:
     - Null Hypothesis: There is no significant difference between the sample means of the two groups. (Meal Prices and Waiter Tips)
     - Results: 14.26 > 1.9698 == True (t_ratio > t_critical)
-    - <b>Conclusion: The t-test is passed and we reject the null hypothesis, therefore there is a significant difference between the means and any variation
-      from the means is not due to random chance, but implies that changes to one value have an almost predictable effect on the other.</b>
+    - <strong>Conclusion: Therefore, we reject the null hypothesis. The significant difference between the means of meal prices and waiter tips suggests
+      that changes to one value have an almost predictable effect on the other in the sample.</strong>
   - p-test:
-    - Null Hypothesis: 
+    - Null Hypothesis: There is no significant linear relationship between meal prices(x) and waiter tips(y).
+    - Results: 6.6924706E-34 < 0.05 (p < alpha)
+    - <strong>Conclusion: The p-value is within the confidence level and is very close to 0, indicating that we can be 95% confident that there is a significant
+      linear relationship between the two values in the sample.</strong>
 - Analysis:
-  - The significance values from the data demonstrated that the results were highly correlated with r = 0.68.
-  - The p-value resulted in being less than alpha = 0.05, falling within the confidence level of 95%.
+  - The r value of r = 0.68 indicates that there is a positive and moderately strong linear relationship between meal prices and waiter tips.
+  - The linear regression model performed better than a 1-Dimensional analysis of variance in predicting and understanding the relationship between
+    the variables.
 - Results:
-  - The values obtained from skikit predictions, excel, and the implementation were almost identical with differences at the values further than the 10th
+  - The values obtained from skikit predictions, excel, and the implementation were almost identical with differences in the values further than the 10th
     Decimal place.
-  - These results indicate that the implementation is correct overall.
+  - I employed Excel's Linear Regression Data Analysis tool, which calculated ANOVA results and other quantities for comparing and validating my regression results.
+    - The equations for finding these values are in the tips.xlsx file.
+   
+<h3>There is a correlation between meal prices and waiter tips in the sample. Variations from the mean values of the variables have an almost predictable effect 
+  on the value of the other variable. The results indicate that we can be 95% confident that there is a linear relationship between the two variables in the 
+  sample. Finally, after comparing the results obtained from the simple linear regression implementation to the Excel regression tool, we cam conclude that the
+  implementation is correct overall.</h3>
+  
 - Sources:
   - Youtube: Brandon Foltz - Simple Linear Regression, zedstatistics, Quantitative Specialists
   - Khan Academy: AP®︎/College Statistics
