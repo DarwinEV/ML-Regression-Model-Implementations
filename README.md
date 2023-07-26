@@ -34,10 +34,10 @@
   - I employed Excel's Linear Regression Data Analysis tool, which calculated ANOVA results and other quantities for comparing and validating my regression results.
     - The equations for finding these values are in the tips.xlsx file.
    
-<h3>There is a correlation between meal prices and waiter tips in the sample. Variations from the mean values of the variables have an almost predictable effect 
-  on the value of the other variable. The results indicate that we can be 95% confident that there is a linear relationship between the two variables in the 
-  sample. Finally, after comparing the results obtained from the simple linear regression implementation to the Excel regression tool, we cam conclude that the
-  implementation is correct overall.</h3>
+There is a correlation between meal prices and waiter tips in the sample. Variations from the mean values of the variables have an almost predictable effect 
+on the value of the other variable. The results indicate that we can be 95% confident that there is a linear relationship between the two variables in the 
+sample. Finally, after comparing the results obtained from the simple linear regression implementation to the Excel regression tool, we cam conclude that the
+implementation is correct overall.
   
 - Sources:
   - Youtube: Brandon Foltz - Simple Linear Regression, zedstatistics, Quantitative Specialists
